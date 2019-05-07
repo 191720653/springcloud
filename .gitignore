@@ -3,6 +3,6 @@
 /.settings/
 .classpath
 .project
-.class
-.txt
-.iml
+*.class
+*.txt
+*.iml
