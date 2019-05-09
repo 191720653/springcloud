@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka-client-ribbon-rest
+
+server:
+  port: 8088
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/

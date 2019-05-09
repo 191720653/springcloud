@@ -1,0 +1,20 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: eureka-client-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+
+zuul:
+  routes:
+    ribbon:
+      path: /ribbon/**
+      serviceId: EUREKA-CLIENT-RIBBON-REST
+    feign:
+      path: /feign/**
+      serviceId: EUREKA-CLIENT-FEIGN-HYSTRIX

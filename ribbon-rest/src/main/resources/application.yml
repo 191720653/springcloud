@@ -1,11 +1,11 @@
-server:
-  port: 8088
-
-spring:
-  application:
-    name: eureka-client-robbin-rest
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8081/eureka/
+#server:
+#  port: 8088
+#
+#spring:
+#  application:
+#    name: eureka-client-ribbon-rest
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8081/eureka/
