@@ -1,4 +1,9 @@
 spring:
+  zipkin:
+    base-url: http://zipkin-server/
+  sleuth:
+    sampler:
+      probability: 1
   application:
     name: eureka-client-ribbon-rest
 

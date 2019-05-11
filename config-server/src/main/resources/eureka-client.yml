@@ -1,4 +1,9 @@
 spring:
+  zipkin:
+    base-url: http://zipkin-server/
+  sleuth:
+    sampler:
+      probability: 1
   application:
     name: eureka-client
 ---
@@ -19,12 +24,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8082/eureka/
----
-spring:
-  profiles: eureka-client-3
-server:
-  port: 8086
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8083/eureka/

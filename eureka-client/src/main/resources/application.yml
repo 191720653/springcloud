@@ -28,3 +28,4 @@
 #  client:
 #    serviceUrl:
 #      defaultZone: http://localhost:8083/eureka/
+spring.zipkin

@@ -14,7 +14,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8082/eureka/,http://localhost:8083/eureka/
+      defaultZone: http://localhost:8082/eureka/
 ---
 spring:
   profiles: eureka-server-2
@@ -23,13 +23,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/,http://localhost:8083/eureka/
----
-spring:
-  profiles: eureka-server-3
-server:
-   port: 8083
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8081/eureka/,http://localhost:8082/eureka/
+      defaultZone: http://localhost:8081/eureka/
