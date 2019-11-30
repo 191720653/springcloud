@@ -8,7 +8,7 @@ spring:
     sampler:
       probability: 1
   application:
-    name: eureka-client-feign-hystrix
+    name: feign-hystrix
 
 eureka:
   client:

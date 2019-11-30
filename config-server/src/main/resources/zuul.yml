@@ -19,7 +19,7 @@ zuul:
   routes:
     ribbon:
       path: /ribbon/**
-      serviceId: EUREKA-CLIENT-RIBBON-REST
+      serviceId: RIBBON-REST
     feign:
       path: /feign/**
-      serviceId: EUREKA-CLIENT-FEIGN-HYSTRIX
+      serviceId: FEIGN-HYSTRIX

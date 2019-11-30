@@ -5,7 +5,7 @@ spring:
     sampler:
       probability: 1
   application:
-    name: eureka-client-ribbon-rest
+    name: ribbon-rest
 
 server:
   port: 8088
